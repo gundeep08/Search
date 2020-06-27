@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    flex-direction: column;
+}
+
+#input {
+    border-radius: 25px;
+    display: flex;
+    height: 38px;
+    width: 555px;
+    top: 250px;
+    margin: auto;
+    padding-left: 20px;
+    font-size: 16px;
+    outline: 0px;
+    center: 0;
+    justify-content: center;
+    border: 1px solid #cdcdcd;
+}
+
+header {
+    right: 0px;
+    position: absolute;
+    margin: 15px 15px 15px 15px;
+    text-decoration: none;
+    height: 40px;
+    outline: 0px;
+    padding: 5px;
+}
+
+#imageSearch {
+    margin-right: 10px;
+}
+
+#advancedSearch {
+    margin-right: 5px;
+}
+
+#mainSearch {
+    margin-right: 10px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+#logo {
+    width: 272px;
+    height: 92px;
+    position: relative;
+    center: 0;
+    display: flex;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+
+.divone {
+    border: none;
+    border-radius: 2px;
+    color: #5F6368;
+    margin: 15px;
+    padding: 8px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+}
+
+.submitbutton:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222
+}
+
+.submitbutton:active, .submitbutton:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+.submitbutton {
+    background-color: #f2f2f2;
+    border: none;
+    color: #5F6368;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    padding: 8px;
+    justify-content: center;
+    user-select: none;
+    text-decoration: none;
+    margin: 5px;
+}
